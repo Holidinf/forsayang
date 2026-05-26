@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">Flower note scrapbook illustration</title>
+  <desc id="desc">A paper note with flowers, hearts, washi tape, and warm pastel texture.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9f7ea"/>
+      <stop offset="0.5" stop-color="#fff7e8"/>
+      <stop offset="1" stop-color="#ffd0aa"/>
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="900" height="720" fill="url(#base)"/>
+  <rect width="900" height="720" filter="url(#noise)" opacity="0.5"/>
+  <g transform="translate(188 104) rotate(-3 262 252)">
+    <rect x="0" y="0" width="524" height="504" rx="28" fill="#fffdf7" stroke="#d8bca8" stroke-width="6"/>
+    <rect x="146" y="-24" width="230" height="54" rx="8" fill="#d9c8ff" opacity="0.75"/>
+    <path d="M76 126h362M76 190h300M76 254h338M76 318h240" stroke="#f7a8b8" stroke-width="12" stroke-linecap="round" opacity="0.55"/>
+    <path d="M82 408c58-58 126-58 184 0 58-58 126-58 184 0" fill="none" stroke="#b9d8bd" stroke-width="13" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(112 430)">
+    <path d="M78 178c-16-58-4-110 36-154" stroke="#6a9d72" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="82" cy="42" r="36" fill="#f7a8b8"/>
+    <circle cx="42" cy="82" r="36" fill="#ffd0aa"/>
+    <circle cx="122" cy="86" r="36" fill="#d9c8ff"/>
+    <circle cx="82" cy="86" r="19" fill="#ffe68a"/>
+  </g>
+  <g transform="translate(654 360)">
+    <path d="M64 210c-18-70-2-130 44-184" stroke="#6a9d72" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="88" cy="60" r="44" fill="#ffd0aa"/>
+    <circle cx="42" cy="108" r="44" fill="#f7a8b8"/>
+    <circle cx="132" cy="112" r="44" fill="#b9d8bd"/>
+    <circle cx="88" cy="112" r="22" fill="#fff4bf"/>
+  </g>
+  <g fill="#d96984">
+    <path d="M728 152c-18-28-62-15-62 18 0 36 62 68 62 68s62-32 62-68c0-33-44-46-62-18z"/>
+    <path d="M126 156c-12-18-42-10-42 12 0 24 42 46 42 46s42-22 42-46c0-22-30-30-42-12z"/>
+  </g>
+  <g fill="#d8a414">
+    <path d="M792 560l10 22 24 3-17 17 4 24-21-12-21 12 4-24-17-17 24-3z"/>
+    <path d="M66 344l8 18 20 3-14 14 3 20-17-9-17 9 3-20-14-14 20-3z"/>
+  </g>
+</svg>

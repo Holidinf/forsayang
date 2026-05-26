@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">Soft laugh scrapbook illustration</title>
+  <desc id="desc">Pastel cafe table with two cups, sparkles, and warm hearts.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8e9ff"/>
+      <stop offset="1" stop-color="#fff7e8"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="900" height="720" fill="url(#bg)"/>
+  <rect width="900" height="720" filter="url(#grain)" opacity="0.5"/>
+  <path d="M0 452c92-54 204-62 336-20 138 44 260 42 370-8 74-34 138-38 194-16v312H0z" fill="#ffe3d0"/>
+  <g transform="translate(184 208)">
+    <ellipse cx="132" cy="248" rx="132" ry="42" fill="#c08c6e" opacity="0.22"/>
+    <path d="M38 100h188v96c0 54-42 98-94 98S38 250 38 196z" fill="#fffaf0" stroke="#6b4b3e" stroke-width="8"/>
+    <path d="M226 124h28c34 0 56 20 56 52s-22 54-56 54h-28" fill="none" stroke="#6b4b3e" stroke-width="16" stroke-linecap="round"/>
+    <path d="M72 156c34 24 88 24 122 0" fill="none" stroke="#d96984" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(494 246)">
+    <ellipse cx="120" cy="210" rx="120" ry="38" fill="#c08c6e" opacity="0.2"/>
+    <path d="M34 72h172v92c0 50-38 90-86 90s-86-40-86-90z" fill="#fffaf0" stroke="#6b4b3e" stroke-width="8"/>
+    <path d="M206 96h26c30 0 50 18 50 48s-20 50-50 50h-26" fill="none" stroke="#6b4b3e" stroke-width="15" stroke-linecap="round"/>
+    <path d="M68 126c30 22 76 22 106 0" fill="none" stroke="#d96984" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M306 156c-28-28-10-66 28-76" stroke="#d96984" stroke-width="12"/>
+    <path d="M386 144c-22-34 2-62 36-70" stroke="#b68ac8" stroke-width="12"/>
+    <path d="M594 188c-20-30-4-56 30-66" stroke="#d96984" stroke-width="11"/>
+  </g>
+  <g fill="#d96984">
+    <path d="M448 198c-18-28-62-16-62 18 0 36 62 68 62 68s62-32 62-68c0-34-44-46-62-18z"/>
+    <path d="M716 126c-10-16-36-9-36 10 0 21 36 40 36 40s36-19 36-40c0-19-26-26-36-10z"/>
+  </g>
+  <g fill="#d8a414">
+    <path d="M132 142l18 38 40 6-29 28 7 40-36-19-36 19 7-40-29-28 40-6z"/>
+    <path d="M784 406l12 26 28 4-20 20 5 28-25-13-25 13 5-28-20-20 28-4z"/>
+  </g>
+</svg>

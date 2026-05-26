@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sunlit day scrapbook illustration</title>
+  <desc id="desc">A pastel table scene with sun, flowers, hearts, and birthday notes.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0c8"/>
+      <stop offset="0.52" stop-color="#ffd7c3"/>
+      <stop offset="1" stop-color="#d9c8ff"/>
+    </linearGradient>
+    <filter id="paperNoise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.12"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="900" height="720" fill="url(#sky)"/>
+  <rect width="900" height="720" filter="url(#paperNoise)" opacity="0.45"/>
+  <circle cx="704" cy="138" r="72" fill="#ffe68a"/>
+  <g fill="none" stroke="#fff7df" stroke-width="12" stroke-linecap="round">
+    <path d="M704 24v48"/>
+    <path d="M704 204v48"/>
+    <path d="M590 138h48"/>
+    <path d="M770 138h48"/>
+    <path d="M623 57l34 34"/>
+    <path d="M751 185l34 34"/>
+    <path d="M785 57l-34 34"/>
+    <path d="M657 185l-34 34"/>
+  </g>
+  <path d="M0 516c112-42 194-28 294 14 98 42 178 58 304 12 98-36 198-44 302-6v184H0z" fill="#fffaf0"/>
+  <rect x="92" y="128" width="330" height="232" rx="22" fill="#fffaf0" opacity="0.9"/>
+  <path d="M130 194h210M130 238h248M130 282h170" stroke="#d96984" stroke-width="13" stroke-linecap="round" opacity="0.55"/>
+  <path d="M130 332c40-46 88-42 112 0 24-42 72-46 112 0" fill="none" stroke="#b9d8bd" stroke-width="12" stroke-linecap="round"/>
+  <g transform="translate(548 376)">
+    <path d="M66 226c-16-68 2-126 48-176" stroke="#6a9d72" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="86" cy="76" r="42" fill="#f7a8b8"/>
+    <circle cx="42" cy="118" r="42" fill="#ffd0aa"/>
+    <circle cx="128" cy="128" r="42" fill="#d9c8ff"/>
+    <circle cx="84" cy="126" r="22" fill="#ffe68a"/>
+    <path d="M70 172c-52-12-90 6-116 48 52 14 90 0 116-48z" fill="#b9d8bd"/>
+  </g>
+  <g fill="#d96984">
+    <path d="M515 184c-24-36-82-20-82 24 0 48 82 91 82 91s82-43 82-91c0-44-58-60-82-24z"/>
+    <path d="M198 468c-14-21-48-11-48 14 0 28 48 53 48 53s48-25 48-53c0-25-34-35-48-14z"/>
+  </g>
+  <g fill="#fff" opacity="0.9">
+    <circle cx="88" cy="74" r="10"/>
+    <circle cx="816" cy="302" r="12"/>
+    <circle cx="748" cy="604" r="8"/>
+  </g>
+</svg>
